@@ -10,7 +10,10 @@ const channels_client = new Pusher({
 
 
 const app = express()
-app.get('/', (req,res) => {
+app.get('/', (req,res)=> {
+    res.send("ok")
+})
+app.get('/test', (req,res) => {
     console.log(req.query.message)
     channels_client.trigger('my-channel', 'my-event', {
   "message": req.query.message
