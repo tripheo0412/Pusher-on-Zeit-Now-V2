@@ -1,0 +1,20 @@
+{
+  "name": "pusher-on-Zeit-Now-V2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tripheo0412/Pusher-on-Zeit-Now-V2.git",
+  "author": "tripheo0412 <tripheo0412@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start-dev": "nodemon index.js",
+    "build": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "nodemon": "^1.19.1",
+    "pusher": "^2.2.2"
+  }
+}
