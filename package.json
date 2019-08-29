@@ -1,21 +1,27 @@
 {
-  "name": "pusher-on-Zeit-Now-V2",
+  "name": "pusher-on-zeit-now-v2",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "repository": "https://github.com/tripheo0412/Pusher-on-Zeit-Now-V2.git",
-  "author": "tripheo0412 <tripheo0412@gmail.com>",
-  "license": "MIT",
   "scripts": {
-    "start-dev": "nodemon index.js",
-    "build": "node index.js",
-    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "dependencies": {
-    "express": "^4.17.1"
+  "engines": {
+    "node": "10.16.0"
   },
-  "devDependencies": {
-    "eslint": "^6.2.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripheo0412/Pusher-on-Zeit-Now-V2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tripheo0412/Pusher-on-Zeit-Now-V2/issues"
+  },
+  "homepage": "https://github.com/tripheo0412/Pusher-on-Zeit-Now-V2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
     "nodemon": "^1.19.1",
     "pusher": "^2.2.2"
   }
