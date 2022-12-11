@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/tripheo0412/Pusher-on-Zeit-Now-V2#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^1.19.1",
     "pusher": "^2.2.2"
   }
